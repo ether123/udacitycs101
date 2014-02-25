@@ -1,4 +1,3 @@
-
 ###############################################
 #       Exercise by Websten from forums       #
 ###############################################
@@ -12,7 +11,7 @@
 
 
 word = "madam"
-is_palindrome = word.find(word[::-1])  #initialize is_palindrome to invoke find on word
+is_palindrome = word.find(word[::-1]) #initialize is_palindrome to invoke find on word, passing in word read backwards
 print is_palindrome
 
 >>>0
